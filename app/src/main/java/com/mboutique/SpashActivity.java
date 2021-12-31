@@ -1,26 +1,16 @@
-package com.btforher;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
+package com.mboutique;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
-import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.Handler;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MotionEvent;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.MediaController;
-import android.widget.Toast;
-import android.widget.VideoView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 
 

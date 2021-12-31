@@ -1,9 +1,4 @@
-
-package com.btforher;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
+package com.mboutique;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -13,14 +8,16 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.onesignal.OneSignal;
 
 
 public class WebViewActivity extends AppCompatActivity {
-WebView mywebview;
-    private static final String ONESIGNAL_APP_ID = "53293859-98c5-404a-8a7f-8274846edcfb";
+    WebView mywebview;
+    private static final String ONESIGNAL_APP_ID = "1aecd410-b147-47ba-9df8-ee4801d22a29";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +45,7 @@ WebView mywebview;
 
         // mywebview.loadUrl("https://waffletownrest.com/entrada-2-app/");
 
-        String url = "https://btforher.com/".trim();
+        String url = "https://mboutiquevb.com/".trim();
 
         mywebview.getSettings().setLoadsImagesAutomatically(true);
         mywebview.getSettings().setJavaScriptEnabled(true);
