@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="NoActionBar" parent="@android:style/Theme.Holo.Light">
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@color/tranperent</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:windowBackground">@color/tranperent</item>
     </style>
 </resources>
